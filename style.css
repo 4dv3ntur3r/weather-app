@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, a,
+img, t, form, label, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, footer, header, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+    font-family: "Montserrat";
+    background-color: #303030;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+
+.card {
+	color: white;
+	border-radius: 8px;
+	display: block;
+	margin: 1rem;
+    padding: 1.5rem;
+	position: relative;
+	align-items: left;
+	width: 345px;
+	background: linear-gradient(315deg, #2b2b2b, #333333);
+    display: flex;
+    flex-direction: column;
+}
+
+.graidient-card {
+    background-color: #000000;
+    background-image: linear-gradient(387deg, #000000 0%, #414141 100%);
+    border-color: #414141;
+    border-width: 1.5px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+}
+
+
+.city {
+    box-sizing: border-box;
+    border-color: #707070;
+    font-size: 1rem;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Minus margin used to reduce the overuse of empty spaces */
+
+.svgSize {
+    width: 13.5em;
+    margin-bottom: -30px;
+}
+
+.padding-top {
+    padding-top: 8px;
+}
